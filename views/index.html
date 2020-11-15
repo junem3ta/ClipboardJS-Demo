@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ClipboardJS-Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../public/css/stylesheet.main.css" />
+        <link rel="stylesheet" type="text/css" href="../public/css/primer-tooltips.css" />
+        <script src="../public/js/jquery-3.2.1.min.js"></script>
+        <script src="../public/js/clipboard.min.js"></script>
+        <script src="../public/js/prefixfree.min.js"></script>
+        <script src="../public/js/main.js"></script>
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <p>
+                <span class="p-h" id="short-url">-- Sample selection field --</span>
+                <span tabindex="1" data-clipboard-target="#short-url" 
+                class="copy-url tooltipped tooltipped-s border p-2 mb-2 mr-2 float-left"
+                aria-label="copied!">
+                    copy
+                </span>
+            </p>
+        </div>
+    </body>
+</html>
